@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="Script1.js"></script>
+</head>
+<body onload="DrawShapes()">
+    <div id="data">
+        <div id="cont">
+             <div id="d1">
+                 <h2>Border Color</h2>
+                 <div id="black" class="color black"  onclick="lineColor()"></div>
+                 <div id="white" class="color white"  onclick="lineColor()"></div>
+                 <div id="red" class="color red" onclick="lineColor()"></div>
+                 <div id="orange" class="color orange"  onclick="lineColor()"></div>
+                 <div id="yellow" class="color yellow"  onclick="lineColor()"></div>
+                 <div id="green" class="color green"  onclick="lineColor()"></div>
+                 <div id="blue" class="color blue"  onclick="lineColor()"></div>
+                 <div id="purple" class="color purple"  onclick="lineColor()"></div>
+                 <div id="pink" class="color pink"  onclick="lineColor()"></div>
+             </div>
+             <div id="d2">
+                 <h2>Fill Color</h2>
+                 <div id="black" class="color black" onclick="toFill()"></div> 
+                 <div id="white" class="color white" onclick="toFill()"></div> 
+                 <div id="red" class="color red" onclick="toFill()"></div> 
+                 <div id="orange" class="color orange" onclick="toFill()"></div>
+                 <div id="yellow" class="color yellow" onclick="toFill()"></div>
+                 <div id="green" class="color green" onclick="toFill()"></div>
+                 <div id="blue" class="color blue" onclick="toFill()"></div>
+                 <div id="purple" class="color purple" onclick="toFill()"></div>
+                 <div id="pink" class="color pink" onclick="toFill()"></div>
+             </div>
+        
+              <div id="d3">
+                  <h2>Line width</h2>
+                  <div class="line Xthin" id="Xthin" onclick="linewidth()"></div>
+                  <div class="line thin" id="thin" onclick="linewidth()"></div>
+                  <div class="line medium" id="medium" onclick="linewidth()"></div>
+                  <div class="line large" id="large" onclick="linewidth()"></div>
+                  <div class="line Xlarge" id="Xlarge" onclick="linewidth()"></div>
+                  <div class="line XXlarge" id="XXlarge" onclick="linewidth()"></div>
+              </div> 
+              <div id="d4">
+                <canvas width="50" height="50" onclick="whatToDraw()" id="line" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="square" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="circle" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="triangle1" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="triangle2" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="triangle3" class="shape"></canvas>
+                <canvas width="50" height="50" onclick="whatToDraw()" id="draw" class="shape" ></canvas>
+                <div width="50" height="50" onclick="whatToDraw()" id="btn" class="shape" >Erase</div>
+         </div>
+        </div>
+    </div>
+    <canvas id="paint" onmousedown="startDraw()" onmouseup="endDraw()"  style="border:1px solid black" width="1565" height="570"></canvas>
+</body>
+</html>

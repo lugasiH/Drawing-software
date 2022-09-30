@@ -1,0 +1,69 @@
+﻿.shape{
+    border:1px dashed silver;
+   border-collapse: collapse;
+margin:2px;
+cursor:pointer;
+}
+#paint{
+    margin: auto;
+}
+.color{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    border:1px black solid;
+    cursor:pointer
+}
+.line {
+    display: inline-block;
+    width: 40px;
+    background:black;
+    cursor: pointer
+}
+.black{background-color:black}
+.white{background-color:white}
+.blue{background-color:#1c1ad4}
+.red{background-color:#e51515}
+.yellow{background-color:#ffe02f}
+.purple{background-color:#d630ba}
+.green{background-color:#88e058}
+.orange{background-color:#fb8932}
+.pink{background-color:#ff62be}
+.Xthin{height:2px}
+.thin{height:5px}
+.medium{height:10px}
+.large{height:15px}
+.Xlarge{height:20px}
+.XXlarge{height:25px}
+#data{display:inline-block; vertical-align:top}
+#btn{
+    margin:20px;
+    background-color:rgb(250, 248, 246);
+    border:1px silver dashed;
+    padding:5px 10px;
+    border-radius:20px;
+    font-family:Bethlove;
+    font-weight:bold;
+    font-size: 20px;
+    cursor:pointer;
+    text-align: center;
+}
+h2{
+    font-family:Bethlove;
+}
+#d1 {
+    display: inline-block;
+    margin-right: 30px;
+}
+#d2 {
+    display: inline-block;
+    margin-left: 30px;
+}
+#d3{
+    display: inline-block;
+    margin-left: 50px;
+}
+#d4{
+    display: inline-block;
+    margin-left: 50px;
+}
